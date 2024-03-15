@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+}
+
+button,
+.menu-label {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.active-menu-btn {
+  background-color: green;
+  color: white;
+}
+
+/* #shop-cart {
+  background-color: red;
+  margin-left: 10px;
+  color: white;
+} */
+.container {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid rgb(226, 224, 224);
+}
+
+.card {
+  margin: 5px;
+  width: 48%;
+  border: 1px solid rgb(226, 224, 224);
+  display: flex;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+}
+
+.card-left {
+  width: 20%;
+}
+
+.card-right {
+  width: 80%;
+  position: relative;
+}
+
+#search-input {
+  margin-top: 20px;
+  height: 30px;
+  font-size: 16px;
+  width: 29%;
+}
+
+.add-cart {
+  background-color: rgb(120, 209, 247);
+  border-radius: 5px;
+}
+.no-data {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+#shop-cart {
+  margin-left: 10px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  position: relative;
+}
+
+.add-cart {
+  background-color: rgb(120, 209, 247);
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.menu-title {
+  text-transform: capitalize;
+}
+
+#order-count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: orange;
+  border-radius: 50%;
+  padding: 2px 5px;
+  color: black;
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+#each-order-count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: rgb(120, 209, 247);
+  border-radius: 50%;
+  padding: 3px 8px;
+  color: black;
+  font-weight: bolder;
+  z-index: 100;
+}
+
+.cart-text {
+  text-align: center;
+  width: 100%;
+  padding: 5px 0;
+  font-size: 24px;
+  background-color: rgb(243, 213, 157);
+}
